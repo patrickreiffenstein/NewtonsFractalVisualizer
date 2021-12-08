@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace NewtonsFractalVisualizer
 {
-	class Color
+	public readonly struct Color
 	{
-		public byte redValue, greenValue, blueValue;
-
+		public readonly byte red, green, blue;
+		
 		/// <summary>
 		/// Color constructer, input the amount of red, green and blue a color should have.
 		/// </summary>
@@ -18,9 +18,9 @@ namespace NewtonsFractalVisualizer
 		/// <param name="blue"></param>
 		public Color(byte red, byte green, byte blue)
 		{
-			redValue = red;
-			greenValue = green;
-			blueValue = blue;
+			this.red = red;
+			this.green = green;
+			this.blue = blue;
 		}
 	}
 }

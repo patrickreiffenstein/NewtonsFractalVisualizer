@@ -1,0 +1,16 @@
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\bin\Debug\net5.0\NewtonsFractalVisualizer.exe
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\bin\Debug\net5.0\NewtonsFractalVisualizer.deps.json
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\bin\Debug\net5.0\NewtonsFractalVisualizer.runtimeconfig.json
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\bin\Debug\net5.0\NewtonsFractalVisualizer.runtimeconfig.dev.json
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\bin\Debug\net5.0\NewtonsFractalVisualizer.dll
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\bin\Debug\net5.0\ref\NewtonsFractalVisualizer.dll
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\bin\Debug\net5.0\NewtonsFractalVisualizer.pdb
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\obj\Debug\net5.0\NewtonsFractalVisualizer.csproj.AssemblyReference.cache
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\obj\Debug\net5.0\NewtonsFractalVisualizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\obj\Debug\net5.0\NewtonsFractalVisualizer.AssemblyInfoInputs.cache
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\obj\Debug\net5.0\NewtonsFractalVisualizer.AssemblyInfo.cs
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\obj\Debug\net5.0\NewtonsFractalVisualizer.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\obj\Debug\net5.0\NewtonsFractalVisualizer.dll
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\obj\Debug\net5.0\ref\NewtonsFractalVisualizer.dll
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\obj\Debug\net5.0\NewtonsFractalVisualizer.pdb
+C:\Users\Patrick\source\repos\NewtonsFractalVisualizer\NewtonsFractalVisualizer\obj\Debug\net5.0\NewtonsFractalVisualizer.genruntimeconfig.cache

@@ -10,9 +10,9 @@ namespace NewtonsFractalVisualizer
 	{
 		public Color[] bits;
 		
-		public Bitmap(int height, int width)
+		public Bitmap(int width, int height)
 		{
-			bits = new Color[height * width];
+			bits = new Color[width * height];
 		}
 	}
 }
