@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "tPaWI2osngsKDkZBG8RHyuEVny2NdLscukpcpkuvBgpCIs1KcoyJtn8RgJH1lZDC0Jylx23PrnmmtlbvDFinJA==",
+  "dgSpecHash": "aNVHJmz94oASeToiClE8I8o8gWtt+44Ch7tLxImg2Xh2PEf48Xonn4NH/sbzKGauEZH/7lY+tDBDo7wMGxZ07A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Patrick\\source\\repos\\NewtonsFractalVisualizer\\NewtonsFractalVisualizer\\NewtonsFractalVisualizer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Patrick\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Patrick\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

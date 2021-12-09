@@ -10,7 +10,7 @@ namespace NewtonsFractalVisualizer
 	{
 		public Color[] bits;
 		
-		public Bitmap(int width, int height)
+		private void BitmapSkrald(int width, int height)
 		{
 			bits = new Color[width * height];
 		}

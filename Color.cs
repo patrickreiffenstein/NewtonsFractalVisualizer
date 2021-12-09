@@ -16,7 +16,7 @@ namespace NewtonsFractalVisualizer
 		/// <param name="red"></param>
 		/// <param name="green"></param>
 		/// <param name="blue"></param>
-		public Color(byte red, byte green, byte blue)
+		private Color(byte red, byte green, byte blue)
 		{
 			this.red = red;
 			this.green = green;
