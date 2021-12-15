@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <Compile Remove="Bitmap.cs" />
+    <Compile Remove="Color.cs" />
   </ItemGroup>
 
   <ItemGroup>

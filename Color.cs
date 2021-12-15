@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NewtonsFractalVisualizer
 {
-	public readonly struct Color
+	readonly struct Color
 	{
 		public readonly byte red, green, blue;
 		
