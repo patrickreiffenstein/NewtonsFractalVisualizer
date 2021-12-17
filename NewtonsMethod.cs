@@ -6,8 +6,9 @@ namespace NewtonsFractalVisualizer
 	public static class NewtonsMethod
 	{
 		//Mængden af iterationer der må blive taget før den giver op, hvilket sørger for at den ikke prøver at kører utroligt mange iterationer hvis den ender fast i en løkke
-		private static int maxSteps = 100000000;
-		
+		private static int maxSteps = 1000;
+		private static int decimals = 15;
+
 		public static Complex? AproximationMethod(Complex z, Func<Complex, Complex> func, Func<Complex, Complex> funcD)
 		{
 			int steps = 0;
@@ -21,7 +22,7 @@ namespace NewtonsFractalVisualizer
 				z = x;
 				calc = z - func(z) / funcD(z);
 				x = calc;
-			} while (z != calc && steps < maxSteps); //find en måde at forkorte de komplekse tal på
+			} while (Math.Round(z.Real, decimals) != Math.Round(calc.Real, decimals) && Math.Round(z.Imaginary, decimals) != Math.Round(calc.Imaginary, decimals) && steps < maxSteps);  //while (z != calc && steps < maxSteps); //find en måde at forkorte de komplekse tal på
 
 			if (steps >= maxSteps)
 			{
@@ -33,7 +34,7 @@ namespace NewtonsFractalVisualizer
 
 		public static Complex Funktion(Complex x)
 		{
-			return x * x * x + 1;
+			return x * x * x - 1;
 			//return x * x + 1;
 			//return x * x * x * x * x * x + x * x * x - 1;
 			//return x * x * x * x * x - 1;
