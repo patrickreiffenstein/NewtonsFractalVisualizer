@@ -38,12 +38,17 @@ namespace NewtonsFractalVisualizer
 
 		public static bool CheckNumber(Complex z, Complex udregning)
 		{
-			return Math.Abs(z.Imaginary - udregning.Imaginary) <= tolerance && Math.Abs(z.Real - udregning.Real) <= tolerance;
+			return ComplexAbs(z - udregning).Real <= tolerance && ComplexAbs(z - udregning).Imaginary <= tolerance;
 		}
 
 		public static Complex ComplexRound(Complex z, int decimaler)
 		{
 			return new Complex(Math.Round(z.Real, decimaler), Math.Round(z.Imaginary, decimaler));
+		}
+
+		public static Complex ComplexAbs(Complex z)
+		{
+			return Math.Sqrt(z.Real * z.Real + z.Imaginary * z.Imaginary);
 		}
 	}
 }
