@@ -24,7 +24,7 @@ namespace NewtonsFractalVisualizer
 
 				z = x;
 				udregning = z - funk(z) / funkD(z);
-				
+
 				x = udregning;
 			} while (!CheckNumber(z, udregning) && trin < maksTrin);
 
